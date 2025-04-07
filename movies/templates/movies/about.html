@@ -1,0 +1,15 @@
+{% extends 'movies/_base.html' %}
+
+<html>
+  {% block content %}
+  <body>
+    <h1>My favorite movie genere is action/adventure</h1>
+    {% load static %}
+    <img
+      style="width: 100px"
+      src="{% static 'movies/limetree.jpg' %}"
+      alt="Lime Tree"
+    />
+  </body>
+  {% endblock %}
+</html>
